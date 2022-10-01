@@ -63,6 +63,11 @@ const tasks = {
 };
 io.on('connection', (socket) => {
     console.log(`⚡: ${socket.id} user just connected!`);
+
+    socket.on('taskDragged', (data) => {
+        console.log(data);
+    });
+
     socket.on('disconnect', () => {
         socket.disconnect();
         console.log('🔥: A user disconnected');
