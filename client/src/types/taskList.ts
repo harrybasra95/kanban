@@ -1,6 +1,6 @@
 import Task from './task';
 
-export default interface TaskList {
+export default interface TaskListType {
     [key: string]: {
         title: string;
         items: Task[];

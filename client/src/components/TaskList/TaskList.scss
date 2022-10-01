@@ -1,0 +1,26 @@
+.task-list-container {
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid rgba(grey, 0.2);
+    border-radius: 5px;
+    .list-title {
+        margin: 10px 0px 15px;
+        text-transform: capitalize;
+    }
+    .pending-style-container {
+        .single-task {
+            background-color: rgba(red, 0.1);
+        }
+    }
+    .ongoing-style-container {
+        .single-task {
+            background-color: rgba(yellow, 0.3);
+        }
+    }
+    .completed-style-container {
+        .single-task {
+            background-color: rgba(green, 0.1);
+        }
+    }
+}

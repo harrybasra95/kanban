@@ -1,0 +1,17 @@
+.single-task {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    .task-details {
+        text-align: left;
+    }
+    .add-comment {
+        text-align: right;
+        color: blue;
+    }
+}
